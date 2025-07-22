@@ -4,7 +4,6 @@
   "version": "1.0",
   "description": "Right-click any IP address to view geolocation and check VirusTotal, AbuseIPDB, and WHOIS.",
   "permissions": ["contextMenus", "scripting", "activeTab"],
-  "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
   },
